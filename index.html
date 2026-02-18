@@ -2,35 +2,110 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bug Bounty Hunting 101</title>
+  <!-- Google Fonts for nicer text -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      color: #1f2937;
+      border-bottom: 2px solid #1f2937;
+      padding-bottom: 0.3rem;
+      margin-top: 2rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 2rem;
+      background-color: #e5e7eb;
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
 
-<div class="container">
-  <div class="card-grid">
+<header>
+  <h1>Bug Bounty Hunting 101</h1>
+</header>
 
-    <div class="card">
-      <div class="card-title">Networking Fundamentals</div>
-      <ul class="card-list">
-        <li><a href="#">OSI Model Layers</a></li>
-        <li><a href="#">TCP vs UDP</a></li>
-        <li><a href="#">IP Addressing</a></li>
-      </ul>
-    </div>
+<main>
+  <h2>Introduction</h2>
+  <p>Welcome to Bug Bounty Hunting! This guide covers the basics to get started in ethical hacking and security research.</p>
 
-    <div class="card">
-      <div class="card-title">Security Basics</div>
-      <ul class="card-list">
-        <li><a href="#">CIA Triad</a></li>
-        <li><a href="#">Encryption Basics</a></li>
-        <li><a href="#">Hashing</a></li>
-      </ul>
-    </div>
+  <h2>Popular Platforms</h2>
+  <ul>
+    <li><a href="https://hackerone.com" target="_blank">HackerOne</a></li>
+    <li><a href="https://www.bugcrowd.com/" target="_blank">Bugcrowd</a></li>
+    <li><a href="https://www.synack.com/" target="_blank">Synack</a></li>
+  </ul>
 
-  </div>
-</div>
+  <h2>Common Vulnerabilities</h2>
+  <ul>
+    <li>Cross-Site Scripting (XSS)</li>
+    <li>SQL Injection</li>
+    <li>Remote Code Execution (RCE)</li>
+    <li>Privilege Escalation</li>
+    <li>Information Disclosure</li>
+  </ul>
+
+  <h2>Tips for Beginners</h2>
+  <ul>
+    <li>Learn OWASP Top 10 vulnerabilities.</li>
+    <li>Practice in safe environments like Hack The Box or DVWA.</li>
+    <li>Start with small, public bug bounty programs.</li>
+    <li>Document findings clearly for maximum reward.</li>
+  </ul>
+</main>
+
+<footer>
+  &copy; 2026 MyCyberNotes. All rights reserved.
+</footer>
 
 </body>
 </html>
